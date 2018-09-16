@@ -1,7 +1,7 @@
 # -*- mode: conf -*-
-FROM postgres:9.6
+FROM postgres:10
 
-MAINTAINER me@nebirhos.com
+MAINTAINER burak@sormagec.com
 
 # common settings
 ENV MAX_CONNECTIONS 500
